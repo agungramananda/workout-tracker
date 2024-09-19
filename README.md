@@ -23,6 +23,10 @@ Aplikasi Workout Tracker dibuat untuk membantu pengguna dalam mencatat dan meman
 - **Authentication:**
   - JWT (JSON Web Tokens)
 
+## Catatan
+
+Aplikasi ini masih memiliki beberapa bug, terutama pada fitur pencatatan waktu (time) dan tanggal (date) workout. Selain itu, fitur untuk pengguna menjalankan workout yang telah dibuat masih dalam tahap pengembangan dan belum tersedia saat ini.
+
 ## Cara Instalasi
 
 **Clone repository:**
@@ -66,8 +70,7 @@ git clone https://github.com/agungramananda/workout-tracker
 1. Clone repository:
 
    ```sh
-   git clone https://github.com/username/capstone-project-rg.git
-   cd capstone-project-rg/fe/workout-tracker/frontend
+   cd fe/workout-tracker
    ```
 
 2. Install dependencies:
@@ -76,16 +79,9 @@ git clone https://github.com/agungramananda/workout-tracker
    npm install
    ```
 
-3. Setup environment variables:
-   Buat file `.env` dan tambahkan variabel-variabel berikut:
-
-   ```env
-   REACT_APP_API_URL=http://localhost:8080
-   ```
-
-4. Run the application:
+3. Run the application:
    ```sh
-   npm start
+   npm start dev
    ```
 
 ## Daftar API Endpoints
