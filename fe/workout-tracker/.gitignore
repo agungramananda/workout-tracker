@@ -7,6 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+capstone-project-rg/be/src/.env
+
 node_modules
 dist
 dist-ssr
